@@ -1,0 +1,91 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x564453b18710 .scope module, "testbench" "testbench" 2 2;
+ .timescale 0 0;
+v0x564453b2df80_0 .var "in1", 1 0;
+v0x564453b2e060_0 .var "in2", 1 0;
+v0x564453b2e130_0 .var "in3", 1 0;
+v0x564453b2e230_0 .var "in4", 1 0;
+v0x564453b2e300_0 .net "out", 1 0, L_0x564453b2e840;  1 drivers
+v0x564453b2e3a0_0 .var "s0", 0 0;
+v0x564453b2e470_0 .var "s1", 0 0;
+S_0x564453b18890 .scope module, "mux" "mux41" 2 7, 3 1 0, S_0x564453b18710;
+ .timescale 0 0;
+    .port_info 0 /INPUT 2 "in1"
+    .port_info 1 /INPUT 2 "in2"
+    .port_info 2 /INPUT 2 "in3"
+    .port_info 3 /INPUT 2 "in4"
+    .port_info 4 /OUTPUT 2 "out"
+    .port_info 5 /INPUT 1 "s0"
+    .port_info 6 /INPUT 1 "s1"
+v0x564453ae20e0_0 .net *"_s0", 1 0, L_0x564453b2e540;  1 drivers
+v0x564453b2d7b0_0 .net *"_s2", 1 0, L_0x564453b2e700;  1 drivers
+v0x564453b2d890_0 .net "in1", 1 0, v0x564453b2df80_0;  1 drivers
+v0x564453b2d950_0 .net "in2", 1 0, v0x564453b2e060_0;  1 drivers
+v0x564453b2da30_0 .net "in3", 1 0, v0x564453b2e130_0;  1 drivers
+v0x564453b2db60_0 .net "in4", 1 0, v0x564453b2e230_0;  1 drivers
+v0x564453b2dc40_0 .net "out", 1 0, L_0x564453b2e840;  alias, 1 drivers
+v0x564453b2dd20_0 .net "s0", 0 0, v0x564453b2e3a0_0;  1 drivers
+v0x564453b2dde0_0 .net "s1", 0 0, v0x564453b2e470_0;  1 drivers
+L_0x564453b2e540 .functor MUXZ 2, v0x564453b2e130_0, v0x564453b2e230_0, v0x564453b2e470_0, C4<>;
+L_0x564453b2e700 .functor MUXZ 2, v0x564453b2df80_0, v0x564453b2e060_0, v0x564453b2e470_0, C4<>;
+L_0x564453b2e840 .functor MUXZ 2, L_0x564453b2e700, L_0x564453b2e540, v0x564453b2e3a0_0, C4<>;
+    .scope S_0x564453b18710;
+T_0 ;
+    %vpi_call 2 10 "$dumpfile", "mux4x1_dataflow.vcd" {0 0 0};
+    %vpi_call 2 11 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x564453b18710 {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0x564453b18710;
+T_1 ;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0x564453b2df80_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x564453b2e060_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x564453b2e130_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x564453b2e230_0, 0, 2;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x564453b2e3a0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x564453b2e470_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x564453b2e3a0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x564453b2e470_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x564453b2e3a0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x564453b2e470_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x564453b2e3a0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x564453b2e470_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x564453b2e3a0_0, 5;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x564453b2e470_0, 5;
+    %end;
+    .thread T_1;
+    .scope S_0x564453b18710;
+T_2 ;
+    %vpi_call 2 35 "$monitor", $time, " out  = %b ", v0x564453b2e300_0 {0 0 0};
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "test_mux41_dataflow.v";
+    "mux4x1_dataflow.v";

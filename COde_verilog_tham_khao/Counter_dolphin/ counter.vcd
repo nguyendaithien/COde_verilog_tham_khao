@@ -1,0 +1,173 @@
+$date
+	Wed Aug 23 14:21:06 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! flag_min $end
+$var wire 1 " flag_max $end
+$var reg 1 # clk $end
+$var reg 1 $ count_dec $end
+$var reg 1 % count_inc $end
+$var reg 4 & count_to [3:0] $end
+$var reg 1 ' load_en $end
+$var reg 1 ( reset_n $end
+$scope module ct $end
+$var wire 1 # clk $end
+$var wire 1 $ count_dec $end
+$var wire 1 % count_inc $end
+$var wire 4 ) count_to [3:0] $end
+$var wire 1 ' load_en $end
+$var wire 1 ( reset_n $end
+$var reg 4 * count_max [3:0] $end
+$var reg 4 + counter [3:0] $end
+$var reg 1 " flag_max $end
+$var reg 1 ! flag_min $end
+$var reg 3 , next_state [2:0] $end
+$var reg 3 - state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 -
+b0 ,
+b0 +
+bx *
+b1111 )
+1(
+x'
+b1111 &
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+b1111 *
+1#
+1'
+#10
+b1 ,
+0#
+1%
+0(
+0'
+#15
+b0 -
+1#
+#20
+0#
+#25
+b1 ,
+b0 -
+1#
+#30
+0#
+#35
+b1 ,
+b0 -
+1#
+#40
+0#
+#45
+b1 ,
+b0 -
+1#
+#50
+0#
+#55
+b1 ,
+b0 -
+1#
+#60
+0#
+#65
+b1 ,
+b0 -
+1#
+#70
+0#
+#75
+b1 ,
+b0 -
+1#
+#80
+0#
+#85
+b1 ,
+b0 -
+1#
+#90
+0#
+#95
+b1 ,
+b0 -
+1#
+#100
+0#
+#105
+b1 ,
+b0 -
+1#
+#110
+0#
+#115
+b1 ,
+b0 -
+1#
+#120
+0#
+#125
+b1 ,
+b0 -
+1#
+#130
+0#
+#135
+b1 ,
+b0 -
+1#
+#140
+0#
+#145
+b1 ,
+b0 -
+1#
+#150
+0#
+#155
+b1 ,
+b0 -
+1#
+#160
+0#
+#165
+b1 ,
+b0 -
+1#
+#170
+0#
+#175
+b1 ,
+b0 -
+1#
+#180
+0#
+#185
+b1 ,
+b0 -
+1#
+#190
+0#
+#195
+b1 ,
+b0 -
+1#
+#200
+0#
