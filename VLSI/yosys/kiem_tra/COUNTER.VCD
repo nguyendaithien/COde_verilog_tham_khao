@@ -1,0 +1,1392 @@
+$date
+	Tue Aug 15 12:02:32 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TestBench $end
+$var wire 1 ! flag_count_min $end
+$var wire 1 " flag_count_max $end
+$var reg 1 # clk $end
+$var reg 1 $ count_dec $end
+$var reg 1 % count_inc $end
+$var reg 4 & count_to [3:0] $end
+$var reg 1 ' load_en $end
+$var reg 1 ( reset_n $end
+$scope module counter_inst $end
+$var wire 1 # clk $end
+$var wire 1 $ count_dec $end
+$var wire 1 % count_inc $end
+$var wire 4 ) count_to [3:0] $end
+$var wire 1 ' load_en $end
+$var wire 1 ( reset_n $end
+$var wire 1 * _31_ $end
+$var wire 1 + _30_ $end
+$var wire 1 , _29_ $end
+$var wire 1 - _28_ $end
+$var wire 1 . _27_ $end
+$var wire 1 / _26_ $end
+$var wire 1 0 _25_ $end
+$var wire 1 1 _24_ $end
+$var wire 1 2 _23_ $end
+$var wire 1 3 _22_ $end
+$var wire 1 4 _21_ $end
+$var wire 1 5 _20_ $end
+$var wire 1 6 _19_ $end
+$var wire 1 7 _18_ $end
+$var wire 1 8 _17_ $end
+$var wire 1 9 _16_ $end
+$var wire 1 : _15_ $end
+$var wire 1 ; _14_ $end
+$var wire 1 < _13_ $end
+$var wire 1 = _12_ $end
+$var wire 1 > _11_ $end
+$var wire 1 ? _10_ $end
+$var wire 1 @ _09_ $end
+$var wire 1 A _08_ $end
+$var wire 1 B _07_ $end
+$var wire 1 C _06_ $end
+$var wire 1 D _05_ $end
+$var wire 1 E _04_ $end
+$var wire 1 F _03_ $end
+$var wire 1 G _02_ $end
+$var wire 1 H _01_ $end
+$var wire 4 I _00_ [3:0] $end
+$var reg 4 J count_max [3:0] $end
+$var reg 4 K counter [3:0] $end
+$var reg 1 " flag_count_max $end
+$var reg 1 ! flag_count_min $end
+$scope module _32_ $end
+$var wire 1 $ A $end
+$var wire 1 D Z $end
+$scope module xdti_55g_10t_inv $end
+$var wire 1 $ A $end
+$var wire 1 D Z $end
+$upscope $end
+$upscope $end
+$scope module _33_ $end
+$var wire 1 L A $end
+$var wire 1 C Z $end
+$scope module xdti_55g_10t_inv $end
+$var wire 1 L A $end
+$var wire 1 C Z $end
+$upscope $end
+$upscope $end
+$scope module _34_ $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 F Z $end
+$scope module xdti_55g_10t_and2 $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 F Z $end
+$upscope $end
+$upscope $end
+$scope module _35_ $end
+$var wire 1 % A $end
+$var wire 1 D B $end
+$var wire 1 B Z $end
+$scope module xdti_55g_10t_and2 $end
+$var wire 1 % A $end
+$var wire 1 D B $end
+$var wire 1 B Z $end
+$upscope $end
+$upscope $end
+$scope module _36_ $end
+$var wire 1 % A $end
+$var wire 1 D B $end
+$var wire 1 A Z $end
+$scope module xdti_55g_10t_nand2 $end
+$var wire 1 % A $end
+$var wire 1 D B $end
+$var wire 1 A Z $end
+$upscope $end
+$upscope $end
+$scope module _37_ $end
+$var wire 1 M A $end
+$var wire 1 N B $end
+$var wire 1 @ Z $end
+$scope module xdti_55g_10t_xor2 $end
+$var wire 1 M A $end
+$var wire 1 N B $end
+$var wire 1 @ Z $end
+$upscope $end
+$upscope $end
+$scope module _38_ $end
+$var wire 1 O A $end
+$var wire 1 P B $end
+$var wire 1 ? Z $end
+$scope module xdti_55g_10t_xor2 $end
+$var wire 1 O A $end
+$var wire 1 P B $end
+$var wire 1 ? Z $end
+$upscope $end
+$upscope $end
+$scope module _39_ $end
+$var wire 1 Q A $end
+$var wire 1 R B $end
+$var wire 1 > Z $end
+$scope module xdti_55g_10t_xor2 $end
+$var wire 1 Q A $end
+$var wire 1 R B $end
+$var wire 1 > Z $end
+$upscope $end
+$upscope $end
+$scope module _40_ $end
+$var wire 1 S A $end
+$var wire 1 T B $end
+$var wire 1 = Z $end
+$scope module xdti_55g_10t_xor2 $end
+$var wire 1 S A $end
+$var wire 1 T B $end
+$var wire 1 = Z $end
+$upscope $end
+$upscope $end
+$scope module _41_ $end
+$var wire 1 @ A $end
+$var wire 1 ? B $end
+$var wire 1 = C $end
+$var wire 1 < Z $end
+$scope module xdti_55g_10t_or3 $end
+$var wire 1 @ A $end
+$var wire 1 ? B $end
+$var wire 1 = C $end
+$var wire 1 < Z $end
+$upscope $end
+$upscope $end
+$scope module _42_ $end
+$var wire 1 > A $end
+$var wire 1 < B $end
+$var wire 1 H Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 > A $end
+$var wire 1 < B $end
+$var wire 1 H Z $end
+$upscope $end
+$upscope $end
+$scope module _43_ $end
+$var wire 1 A A $end
+$var wire 1 H B $end
+$var wire 1 ; Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 A A $end
+$var wire 1 H B $end
+$var wire 1 ; Z $end
+$upscope $end
+$upscope $end
+$scope module _44_ $end
+$var wire 1 U A $end
+$var wire 1 V B $end
+$var wire 1 : Z $end
+$scope module xdti_55g_10t_or2 $end
+$var wire 1 U A $end
+$var wire 1 V B $end
+$var wire 1 : Z $end
+$upscope $end
+$upscope $end
+$scope module _45_ $end
+$var wire 1 W A $end
+$var wire 1 X B $end
+$var wire 1 : C $end
+$var wire 1 G Z $end
+$scope module xdti_55g_10t_nor3 $end
+$var wire 1 W A $end
+$var wire 1 X B $end
+$var wire 1 : C $end
+$var wire 1 G Z $end
+$upscope $end
+$upscope $end
+$scope module _46_ $end
+$var wire 1 % A $end
+$var wire 1 D B $end
+$var wire 1 G C $end
+$var wire 1 9 Z $end
+$scope module xdti_55g_10t_nor3 $end
+$var wire 1 % A $end
+$var wire 1 D B $end
+$var wire 1 G C $end
+$var wire 1 9 Z $end
+$upscope $end
+$upscope $end
+$scope module _47_ $end
+$var wire 1 ' A $end
+$var wire 1 ; B $end
+$var wire 1 9 C $end
+$var wire 1 E Z $end
+$scope module xdti_55g_10t_or3 $end
+$var wire 1 ' A $end
+$var wire 1 ; B $end
+$var wire 1 9 C $end
+$var wire 1 E Z $end
+$upscope $end
+$upscope $end
+$scope module _48_ $end
+$var wire 1 ' A $end
+$var wire 1 Y B $end
+$var wire 1 Z Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 ' A $end
+$var wire 1 Y B $end
+$var wire 1 Z Z $end
+$upscope $end
+$upscope $end
+$scope module _49_ $end
+$var wire 1 [ A $end
+$var wire 1 A B $end
+$var wire 1 8 Z $end
+$scope module xdti_55g_10t_nand2 $end
+$var wire 1 [ A $end
+$var wire 1 A B $end
+$var wire 1 8 Z $end
+$upscope $end
+$upscope $end
+$scope module _50_ $end
+$var wire 1 \ A $end
+$var wire 1 A B $end
+$var wire 1 7 Z $end
+$scope module xdti_55g_10t_xor2 $end
+$var wire 1 \ A $end
+$var wire 1 A B $end
+$var wire 1 7 Z $end
+$upscope $end
+$upscope $end
+$scope module _51_ $end
+$var wire 1 ] A $end
+$var wire 1 7 B $end
+$var wire 1 6 Z $end
+$scope module xdti_55g_10t_and2 $end
+$var wire 1 ] A $end
+$var wire 1 7 B $end
+$var wire 1 6 Z $end
+$upscope $end
+$upscope $end
+$scope module _52_ $end
+$var wire 1 ^ A $end
+$var wire 1 7 B $end
+$var wire 1 5 Z $end
+$scope module xdti_55g_10t_nand2 $end
+$var wire 1 ^ A $end
+$var wire 1 7 B $end
+$var wire 1 5 Z $end
+$upscope $end
+$upscope $end
+$scope module _53_ $end
+$var wire 1 _ A $end
+$var wire 1 7 B $end
+$var wire 1 4 Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 _ A $end
+$var wire 1 7 B $end
+$var wire 1 4 Z $end
+$upscope $end
+$upscope $end
+$scope module _54_ $end
+$var wire 1 ' A $end
+$var wire 1 6 B $end
+$var wire 1 4 C $end
+$var wire 1 ` Z $end
+$scope module xdti_55g_10t_nor3 $end
+$var wire 1 ' A $end
+$var wire 1 6 B $end
+$var wire 1 4 C $end
+$var wire 1 ` Z $end
+$upscope $end
+$upscope $end
+$scope module _55_ $end
+$var wire 1 8 A $end
+$var wire 1 5 B $end
+$var wire 1 3 Z $end
+$scope module xdti_55g_10t_and2 $end
+$var wire 1 8 A $end
+$var wire 1 5 B $end
+$var wire 1 3 Z $end
+$upscope $end
+$upscope $end
+$scope module _56_ $end
+$var wire 1 a A $end
+$var wire 1 B B $end
+$var wire 1 2 Z $end
+$scope module xdti_55g_10t_and2 $end
+$var wire 1 a A $end
+$var wire 1 B B $end
+$var wire 1 2 Z $end
+$upscope $end
+$upscope $end
+$scope module _57_ $end
+$var wire 1 b A $end
+$var wire 1 B B $end
+$var wire 1 1 Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 b A $end
+$var wire 1 B B $end
+$var wire 1 1 Z $end
+$upscope $end
+$upscope $end
+$scope module _58_ $end
+$var wire 1 2 A $end
+$var wire 1 1 B $end
+$var wire 1 0 Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 2 A $end
+$var wire 1 1 B $end
+$var wire 1 0 Z $end
+$upscope $end
+$upscope $end
+$scope module _59_ $end
+$var wire 1 3 A $end
+$var wire 1 0 B $end
+$var wire 1 / Z $end
+$scope module xdti_55g_10t_and2 $end
+$var wire 1 3 A $end
+$var wire 1 0 B $end
+$var wire 1 / Z $end
+$upscope $end
+$upscope $end
+$scope module _60_ $end
+$var wire 1 3 A $end
+$var wire 1 0 B $end
+$var wire 1 . Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 3 A $end
+$var wire 1 0 B $end
+$var wire 1 . Z $end
+$upscope $end
+$upscope $end
+$scope module _61_ $end
+$var wire 1 ' A $end
+$var wire 1 / B $end
+$var wire 1 . C $end
+$var wire 1 c Z $end
+$scope module xdti_55g_10t_nor3 $end
+$var wire 1 ' A $end
+$var wire 1 / B $end
+$var wire 1 . C $end
+$var wire 1 c Z $end
+$upscope $end
+$upscope $end
+$scope module _62_ $end
+$var wire 1 d A $end
+$var wire 1 B B $end
+$var wire 1 6 C $end
+$var wire 1 - Z $end
+$scope module xdti_55g_10t_nand3 $end
+$var wire 1 d A $end
+$var wire 1 B B $end
+$var wire 1 6 C $end
+$var wire 1 - Z $end
+$upscope $end
+$upscope $end
+$scope module _63_ $end
+$var wire 1 8 A $end
+$var wire 1 5 B $end
+$var wire 1 1 C $end
+$var wire 1 , Z $end
+$scope module xdti_55g_10t_nand3 $end
+$var wire 1 8 A $end
+$var wire 1 5 B $end
+$var wire 1 1 C $end
+$var wire 1 , Z $end
+$upscope $end
+$upscope $end
+$scope module _64_ $end
+$var wire 1 - A $end
+$var wire 1 , B $end
+$var wire 1 + Z $end
+$scope module xdti_55g_10t_nand2 $end
+$var wire 1 - A $end
+$var wire 1 , B $end
+$var wire 1 + Z $end
+$upscope $end
+$upscope $end
+$scope module _65_ $end
+$var wire 1 C A $end
+$var wire 1 + B $end
+$var wire 1 * Z $end
+$scope module xdti_55g_10t_xor2 $end
+$var wire 1 C A $end
+$var wire 1 + B $end
+$var wire 1 * Z $end
+$upscope $end
+$upscope $end
+$scope module _66_ $end
+$var wire 1 ' A $end
+$var wire 1 * B $end
+$var wire 1 e Z $end
+$scope module xdti_55g_10t_nor2 $end
+$var wire 1 ' A $end
+$var wire 1 * B $end
+$var wire 1 e Z $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+xe
+xd
+xc
+xb
+xa
+x`
+x_
+x^
+x]
+x\
+x[
+xZ
+xY
+xX
+xW
+xV
+xU
+xT
+xS
+xR
+xQ
+xP
+xO
+xN
+xM
+xL
+bx K
+bx J
+bx I
+xH
+xG
+0F
+0E
+1D
+xC
+0B
+1A
+x@
+x?
+x>
+x=
+x<
+0;
+x:
+09
+x8
+x7
+x6
+x5
+x4
+x3
+02
+x1
+x0
+x/
+x.
+1-
+x,
+x+
+x*
+b1111 )
+1(
+0'
+b1111 &
+0%
+0$
+0#
+x"
+x!
+$end
+#5
+1#
+#10
+1e
+1c
+0*
+1`
+0/
+0.
+1+
+00
+04
+13
+0,
+1C
+1G
+11
+18
+17
+0:
+b1111 I
+1Z
+06
+15
+0L
+0R
+0X
+0T
+0W
+0a
+0b
+0d
+0N
+0V
+0[
+0\
+0P
+0U
+0Y
+0]
+0^
+0_
+b0 K
+0#
+0(
+#15
+1!
+1#
+#20
+0#
+1(
+#25
+1#
+#30
+1F
+1E
+0Z
+0`
+0c
+b0 I
+0e
+0#
+1'
+#35
+0H
+1<
+1>
+1=
+1@
+1?
+1Q
+1S
+1M
+1O
+b1111 J
+1#
+#40
+0F
+0E
+1Z
+1`
+1c
+b1111 I
+1e
+0#
+0'
+#45
+0"
+1#
+#50
+0e
+0c
+1*
+1/
+0+
+b1 I
+0`
+10
+1,
+1E
+14
+01
+1;
+07
+1B
+0A
+0#
+1%
+#55
+0G
+1`
+0?
+1:
+b10 I
+0Z
+04
+1P
+1U
+1Y
+1]
+1^
+1_
+b1 K
+1#
+#60
+0#
+#65
+1`
+0@
+17
+1?
+b11 I
+1Z
+04
+1N
+1V
+1[
+1\
+0P
+0U
+0Y
+0]
+0^
+0_
+b10 K
+0!
+1#
+#70
+0#
+#75
+1c
+0/
+0`
+03
+0?
+b100 I
+0Z
+16
+05
+1P
+1U
+1Y
+1]
+1^
+1_
+b11 K
+1#
+#80
+0#
+#85
+00
+14
+0`
+13
+0=
+12
+1@
+07
+1?
+0:
+b101 I
+1Z
+06
+15
+1T
+1W
+1a
+1b
+1d
+0N
+0V
+0[
+0\
+0P
+0U
+0Y
+0]
+0^
+0_
+b100 K
+1#
+#90
+0#
+#95
+1`
+0?
+1:
+b110 I
+0Z
+04
+1P
+1U
+1Y
+1]
+1^
+1_
+b101 K
+1#
+#100
+0#
+b101 &
+b101 )
+#105
+1`
+0@
+17
+1?
+b111 I
+1Z
+04
+1N
+1V
+1[
+1\
+0P
+0U
+0Y
+0]
+0^
+0_
+b110 K
+1#
+#110
+0#
+#115
+1e
+0*
+0c
+1+
+1.
+0<
+0`
+0-
+03
+0?
+b1000 I
+0Z
+16
+05
+1P
+1U
+1Y
+1]
+1^
+1_
+b111 K
+1#
+#120
+0#
+#125
+1/
+0.
+10
+0+
+14
+1<
+0`
+13
+0C
+0>
+1=
+02
+1-
+1@
+07
+1?
+0:
+b1001 I
+1Z
+06
+15
+1L
+1R
+1X
+0T
+0W
+0a
+0b
+0d
+0N
+0V
+0[
+0\
+0P
+0U
+0Y
+0]
+0^
+0_
+b1000 K
+1#
+#130
+0#
+#135
+1`
+0?
+1:
+b1010 I
+0Z
+04
+1P
+1U
+1Y
+1]
+1^
+1_
+b1001 K
+1#
+#140
+0#
+#145
+1`
+0@
+17
+1?
+b1011 I
+1Z
+04
+1N
+1V
+1[
+1\
+0P
+0U
+0Y
+0]
+0^
+0_
+b1010 K
+1#
+#150
+0#
+#155
+1c
+0/
+0`
+03
+0?
+b1100 I
+0Z
+16
+05
+1P
+1U
+1Y
+1]
+1^
+1_
+b1011 K
+1#
+#160
+0#
+#165
+00
+14
+0`
+13
+0=
+12
+1@
+07
+1?
+0:
+b1101 I
+1Z
+06
+15
+1T
+1W
+1a
+1b
+1d
+0N
+0V
+0[
+0\
+0P
+0U
+0Y
+0]
+0^
+0_
+b1100 K
+1#
+#170
+0#
+#175
+1`
+0?
+1:
+b1110 I
+0Z
+04
+1P
+1U
+1Y
+1]
+1^
+1_
+b1101 K
+1#
+#180
+0#
+#185
+1`
+0@
+17
+1?
+b1111 I
+1Z
+04
+1N
+1V
+1[
+1\
+0P
+0U
+0Y
+0]
+0^
+0_
+b1110 K
+1#
+#190
+0#
+#195
+0E
+0e
+0;
+1*
+0c
+1H
+1+
+1.
+0<
+0`
+0-
+03
+0?
+b0 I
+0Z
+16
+05
+1P
+1U
+1Y
+1]
+1^
+1_
+b1111 K
+1#
+#200
+0#
+#205
+1"
+1#
+#210
+0#
+#215
+1#
+#220
+0#
+#225
+1#
+#230
+0#
+#235
+1#
+#240
+0#
+#245
+1#
+#250
+0#
+#255
+1#
+#260
+1F
+1E
+0#
+1'
+#265
+1;
+0H
+1/
+0.
+10
+0+
+14
+1<
+13
+1C
+1=
+1G
+02
+1-
+07
+1?
+0:
+06
+15
+0L
+0R
+0X
+0T
+0W
+0a
+0b
+0d
+0N
+0V
+0[
+0\
+0P
+0U
+0Y
+0]
+0^
+0_
+0M
+0Q
+b0 K
+b101 J
+1#
+#270
+0F
+b1 I
+1Z
+0#
+0'
+#275
+0G
+1`
+0?
+1:
+b10 I
+0Z
+04
+1P
+1U
+1Y
+1]
+1^
+1_
+b1 K
+1!
+0"
+1#
+#280
+0#
+#285
+1`
+1@
+17
+1?
+b11 I
+1Z
+04
+1N
+1V
+1[
+1\
+0P
+0U
+0Y
+0]
+0^
+0_
+b10 K
+0!
+1#
+#290
+0#
+#295
+1c
+0/
+0`
+03
+0?
+b100 I
+0Z
+16
+05
+1P
+1U
+1Y
+1]
+1^
+1_
+b11 K
+1#
+#300
+0#
+#305
+00
+14
+0`
+13
+0=
+12
+0@
+07
+1?
+0:
+b101 I
+1Z
+06
+15
+1T
+1W
+1a
+1b
+1d
+0N
+0V
+0[
+0\
+0P
+0U
+0Y
+0]
+0^
+0_
+b100 K
+1#
+#310
+0#
+#315
+0E
+0;
+1H
+0<
+1`
+0?
+1:
+b110 I
+0Z
+04
+1P
+1U
+1Y
+1]
+1^
+1_
+b101 K
+1#
+#320
+0#
+#325
+1"
+1#
+#330
+0#
+#335
+1#
+#340
+0#
+#345
+1#
+#350
+0#
+#355
+1#
+#360
+0#
+#365
+1#
+#370
+b100 I
+0`
+03
+10
+16
+05
+02
+17
+0B
+1A
+0#
+0%
+#375
+1#
+#380
+0#
+#385
+1#
+#390
+1E
+19
+0D
+0#
+1$
+#395
+0c
+0H
+1/
+1<
+1`
+13
+1?
+0:
+b11 I
+1Z
+06
+15
+0P
+0U
+0Y
+0]
+0^
+0_
+b100 K
+1#
+#400
+0#
+#405
+0/
+1.
+00
+1`
+03
+1=
+11
+1@
+08
+07
+0?
+1:
+b10 I
+0Z
+06
+15
+0T
+0W
+0a
+0b
+0d
+1N
+1V
+1[
+1\
+1P
+1U
+1Y
+1]
+1^
+1_
+b11 K
+0"
+1#
+#410
+0E
+09
+0#
+1%
+#415
+1#
+#420
+0#
+#425
+1#
+#430
+1c
+0.
+b100 I
+0`
+10
+1E
+16
+05
+01
+1;
+18
+17
+1B
+0A
+1D
+0#
+0$
+#435
+0e
+1*
+13
+00
+0+
+1?
+b101 I
+1Z
+06
+15
+14
+0@
+0:
+07
+0=
+12
+1-
+0P
+0U
+0Y
+0]
+0^
+0_
+0N
+0V
+0[
+0\
+1T
+1W
+1a
+1b
+1d
+b100 K
+1#
+#440
+0c
+1/
+b11 I
+1`
+10
+0E
+04
+02
+0;
+17
+0B
+1A
+0#
+0%
+#445
+1#
+#450
+0#
+#455
+1#
+#460
+1F
+1E
+0Z
+b0 I
+0`
+0#
+1'
+#465
+0*
+0/
+1+
+00
+0,
+1=
+1G
+11
+0T
+0W
+0a
+0b
+0d
+b0 K
+1#
+#470
+0F
+0E
+1Z
+1`
+1c
+b1111 I
+1e
+0#
+0'
+#475
+1!
+1#
+#480
+0#

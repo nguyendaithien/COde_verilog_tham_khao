@@ -1,0 +1,9 @@
+read_verilog counter.v
+
+synth -top Counter
+
+abc -liberty dti_tm55gp_60_10t_stdcells_ff_1p1v_0c_rev1p0p1.lib
+
+clean 
+
+write_verilog netlist.v
