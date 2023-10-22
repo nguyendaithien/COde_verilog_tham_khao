@@ -16,25 +16,27 @@ reg [7:0]count_max;
 reg [1:0]minute;
 reg [7:0]second;
 always @( posedge clk )begin
-	if( en_count_t & ~start_count_t)
-		cnt <= mode_count_t;
+	count_max <= mode_count_t;
 end
-always @( posedge clk or negedge reset_n or posedge start_count_t or posedge stop_count_t ) begin
+
+always @( posedge stop_count_t or posedge start_count_t ) begin
 	if( ~reset_n )begin
 		cnt <= 8'd0;
 		count_max <= 8'd0;
 	end
-	else begin 
-		if( stop_count_t ) begin
-			cnt <= 8'd0;
-			count_max <= 8'd0;
-		end
+	if( stop_count_t ) begin
+		cnt <= 8'd0;
+		count_max <= 8'd0;
+	end
+	else begin
 		if( start_count_t ) begin
-			cnt <= (cnt == 8'd0)? cnt : cnt - 8'd1;
+			cnt <= cnt - 8'd1;
+		end
+		if( en_count_t & ~start_count_t ) begin
+		       	cnt <= count_max;
 		end
 	end
 end
-
 always @( posedge clk ) begin
 	flag_sec_equal_zero_t <= (cnt == 8'd0);
 end
